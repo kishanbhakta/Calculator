@@ -1,6 +1,9 @@
 var t = document.querySelector("#num_one");
 var b = document.querySelector("#num_two");
-var calc = document.querySelector("#calculateBtnA");
+var addi = document.querySelector("#calculateBtnA");
+var sub = document.querySelector("#calculateBtnS");
+var mul = document.querySelector("#calculateBtnM");
+var div = document.querySelector("#calculateBtnD");
 var ans = document.querySelector("#answer");
 
 // Test
@@ -10,7 +13,7 @@ var ans = document.querySelector("#answer");
 
 // 1. add event to the calculate btn
 
-function mathRules () {
+function addition () {
  var numberOne = Number(t.value);
  var numberTwo= Number(b.value);
  var sum = numberOne + numberTwo;
@@ -18,7 +21,38 @@ function mathRules () {
 }
 
 
-calc.addEventListener('click', mathRules);
+addi.addEventListener('click', addition);
+
+function subtraction () {
+ var numberOne = Number(t.value);
+ var numberTwo= Number(b.value);
+ var dif = numberOne - numberTwo;
+ ans.innerHTML = dif.toString();
+}
+
+
+sub.addEventListener('click', subtraction);
+
+function  multipication() {
+ var numberOne = Number(t.value);
+ var numberTwo= Number(b.value);
+ var mag = numberOne * numberTwo;
+ ans.innerHTML = mag.toString();
+}
+
+
+mul.addEventListener('click', multipication);
+
+function division () {
+ var numberOne = Number(t.value);
+ var numberTwo= Number(b.value);
+ var frac = numberOne / numberTwo;
+ ans.innerHTML = frac.toString();
+}
+
+
+div.addEventListener('click', division);
+
 
 
 
