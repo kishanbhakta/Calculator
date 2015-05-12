@@ -12,6 +12,9 @@ var ans = document.querySelector("#answer");
 
 
 // 1. add event to the calculate btn
+// 2. dynamically get values
+
+          // addition
 
 function addition () {
  var numberOne = Number(t.value);
@@ -20,8 +23,11 @@ function addition () {
  ans.innerHTML = sum.toString();
 }
 
-
 addi.addEventListener('click', addition);
+
+
+
+          // subtraction
 
 function subtraction () {
  var numberOne = Number(t.value);
@@ -30,8 +36,11 @@ function subtraction () {
  ans.innerHTML = dif.toString();
 }
 
-
 sub.addEventListener('click', subtraction);
+
+
+
+          // multiply
 
 function  multipication() {
  var numberOne = Number(t.value);
@@ -40,8 +49,11 @@ function  multipication() {
  ans.innerHTML = mag.toString();
 }
 
-
 mul.addEventListener('click', multipication);
+
+
+
+          // division
 
 function division () {
  var numberOne = Number(t.value);
@@ -56,4 +68,3 @@ div.addEventListener('click', division);
 
 
 
-// 2. dynamically get values
