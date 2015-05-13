@@ -1,16 +1,22 @@
 body{
-  background-color: grey;
+  background-image: url("http://wallpoper.com/images/00/24/45/20/love-mathematics_00244520.jpg");
+  background-size: 100%;
+  width: 100%;
 }
 
-h3{
+h1{
+  color: red;
   font-size: 4em;
   font-family: 'Shadows Into Light', cursive;
 }
 
 .center{
+  /*background-color: rgba(225, 225, 225, 0.6);*/
   text-align: center;
-  width: 100%;
-  margin-bottom: 1em;
+  width: 70%;
+  /*margin-right: auto;*/
+  /*margin-left: auto;*/
+  margin: auto;
 }
 
 #num_one{
@@ -23,4 +29,8 @@ h3{
 
 .answer{
   color: #66FF66;
+}
+
+img{
+  width: 15em;
 }
