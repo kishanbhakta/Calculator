@@ -1,0 +1,26 @@
+body{
+  background-color: grey;
+}
+
+h3{
+  font-size: 4em;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.center{
+  text-align: center;
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+#num_one{
+  border-color: red;
+}
+
+#num_two{
+  border-color: red;
+}
+
+.answer{
+  color: #66FF66;
+}
